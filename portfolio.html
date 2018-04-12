@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Yahoo Finance project for CareerDevs">
+    <meta name="author" content="Connor McGlynn">
+
+    <title>Aslan Financial Holdings, Ltd.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS and Google Fonts -->
+    <link href="stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coustard:400,900|Marcellus+SC" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+
+    <div class="d-flex h-100 p-3 mx-auto flex-column">
+      <header class="header mb-auto">
+        <div class="header-nav">
+          <h3 class="header-company" style="font-family: 'Marcellus SC', serif;"><img class="logo" src="images/lion_logo.png">  Aslan Financial Holdings, Ltd.</h3>
+          <nav class="nav nav-header justify-content-center">
+            <ul><li><a class="nav-link" href="index.html">HOME</a></li></ul>
+            <ul><li><a class="nav-link active" href="portfolio.html">PORTFOLIO</a></li></ul>
+            <ul><li><a class="nav-link" href="events.html">EVENTS</a></li></ul>
+          </nav>
+        </div>
+      </header>
+      <br>
+      <h1  class="subheader">&nbsp;&nbsp;Summary of Current Holdings</h1>
+      <br>
+      
+<!-- Bootstrap table for portfolio -->
+
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Symbol</th>
+      <th scope="col">Price</th>
+      <th scope="col">Change</th>
+      <th scope="col">% Change</th>
+      <th scope="col">Volume</th>
+      <th scope="col">52wk &uarr;</th>
+      <th scope="col">52wk &darr;</th>
+      <th scope="col">Cap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/AMD" target="_blank">AMD</a></th>
+      <td>9.48</td>
+      <td class="tickdown">-0.05</td>
+      <td class="tickdown">-0.56%</td>
+      <td>26.31M</td>
+      <td>15.65</td>
+      <td>9.04</td>
+      <td>9.18B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/SQ" target="_blank">SQ</a></th>
+      <td>47.16</td>
+      <td class="tickdown">-0.51</td>
+      <td class="tickdown">-1.09%</td>
+      <td>5.66M</td>
+      <td>58.46</td>
+      <td>16.66</td>
+      <td>18.68B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/SNE" target="_blank">SNE</a></th>
+      <td>48.34</td>
+      <td class="tickup">+0.35</td>
+      <td class="tickup">+0.73%</td>
+      <td>1.08M</td>
+      <td>53.91</td>
+      <td>31.32</td>
+      <td>60.04B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/DIS" target="_blank">DIS</a></th>
+      <td>98.20</td>
+      <td class="tickdown">-0.46</td>
+      <td class="tickdown">-0.47%</td>
+      <td>2.59M</td>
+      <td>116.10</td>
+      <td>96.20</td>
+      <td>147.66B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/GRUB" target="_blank">GRUB</a></th>
+      <td>97.46</td>
+      <td class="tickdown">-0.12</td>
+      <td class="tickdown">-0.13%</td>
+      <td>327.51k</td>
+      <td>112.41</td>
+      <td>33.76</td>
+      <td>8.51B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/W" target="_blank">W</a></th>
+      <td>64.53</td>
+      <td class="tickup">+1.92</td>
+      <td class="tickup">+2.98%</td>
+      <td>1.04M</td>
+      <td>100.14</td>
+      <td>36.93</td>
+      <td>5.73B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/GIS" target="_blank">GIS</a></th>
+      <td>44.01</td>
+      <td class="tickdown">-0.07</td>
+      <td class="tickdown">-0.16%</td>
+      <td>2.13M</td>
+      <td>60.69</td>
+      <td>43.84</td>
+      <td>25.11B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/AMZN" target="_blank">AMZN</a></th>
+      <td>1,379.96</td>
+      <td class="tickup">+7.73</td>
+      <td class="tickup">+0.56%</td>
+      <td>5.18M</td>
+      <td>1,617.54</td>
+      <td>884.49</td>
+      <td>667.95B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/NFLX" target="_blank">NFLX</a></th>
+      <td>282.00</td>
+      <td class="tickup">+1.72</td>
+      <td class="tickup">+0.61%</td>
+      <td>7.81M</td>
+      <td>333.98</td>
+      <td>138.66</td>
+      <td>122.60B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/BABA" target="_blank">BABA</a></th>
+      <td>175.62</td>
+      <td class="tickdown">-1.93</td>
+      <td class="tickdown">-1.10%</td>
+      <td>10.28M</td>
+      <td>206.20</td>
+      <td>108.84</td>
+      <td>450.92B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/TSLA" target="_blank">TSLA</a></th>
+      <td>262.77</td>
+      <td class="tickup">+11.12</td>
+      <td class="tickup">+4.23%</td>
+      <td>9.98M</td>
+      <td>389.61</td>
+      <td>275.54</td>
+      <td>44.45B</td>
+    </tr>
+    <tr>
+      <th scope="row"><a class="tickerlink" href="https://finance.yahoo.com/quote/AAPL" target="_blank">AAPL</a></th>
+      <td>166.05</td>
+      <td class="tickdown">-0.61</td>
+      <td class="tickdown">-0.37%</td>
+      <td>14.55M</td>
+      <td>183.50</td>
+      <td>140.06</td>
+      <td>841.13B</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+        
+        <p><h3>Invest with confidence. Contact one of our specialized brokers to get started.</h3></p>
+        <br>
+        
+        
+<!-- Triggers the modal with a button -->
+<center><button type="button" class="btn btn-info btn-lg btn-outline-light" style="width: 220px; text-align:center;" data-toggle="modal" data-target="#exampleModal">Contact Us Now</button>
+</center>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title modalfont" id="exampleModalLabel">Broker contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modalfont">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Your email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-dark">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <footer class="modalfont" id="footer"> <!-- override class with ID -->
+        <div>
+          <br><p class="footer">Copyright © 2018 Aslan Financial Holdings, LLC</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

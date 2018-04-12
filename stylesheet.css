@@ -1,0 +1,121 @@
+/* Links */
+a, a:focus, a:hover {
+	color: #ce5858;
+}
+.tickerlink {
+	color: #2EC0FE;
+	text-decoration: underline;
+}
+
+
+/* Button */
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+	color: #333;
+	background-color: #fff;
+	border: 5px #fff;
+}
+
+/* Body structure */
+html, body {
+	width: 100%;
+	background-color: #353535;
+	display: block;
+	padding: 0 100px 0 100px;
+	justify-content: center;
+	color: #ffffff;
+}
+
+.dropdown-menu {
+  width: 250px; !important
+}
+
+/* Header */
+
+.logo {
+	width:30px;
+	height:30px;
+	
+}
+.header {
+	margin-bottom: 10px;
+}
+.header-company {
+	margin-bottom: 0;
+	float: left;
+}
+.nav-header .nav-link {
+	padding: 5px 0 0;
+	font-weight: 700;
+	color: grey;
+	border-bottom: 4px solid transparent;
+	width:100%;
+	float: right;
+	-webkit-transition: border-bottom-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: border-bottom-color 1s;
+}
+.nav-header .nav-link:hover, .nav-header .nav-link:focus {
+	border-bottom-color: grey;
+	width:100%;
+}
+.nav-header .active {
+	color: #fff;
+	border-bottom-color: #ce5858;
+}
+
+@media (min-width: 50em) {
+	.header-company {
+		float: left;
+	}
+	.nav-header {
+		float: right;
+	}
+}
+
+/* Fonts */
+
+.subheader {
+	
+	font-family: 'Coustard', serif; 
+	font-size:20px; 
+	text-align:left;
+}
+
+.tagline {
+	
+	font-family: 'Coustard', serif;
+	font-size:40px;
+	text-align:center;
+}
+
+.sub-tagline {
+	
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn-lg {
+	padding: .75em 1.25em;
+	font-weight: 700;
+}
+.tickup {
+	color: lime;
+}
+.tickdown {
+	color: red;
+}
+ul {
+	list-style-type: none; /* to remove bullets from nav UL */
+}
+.modalfont {
+	color: black;
+}
+
+/* Footer */
+.footer {
+	color:grey;
+}
+
+#footer {
+	color: grey;
+	padding-top: 25px;
+}
