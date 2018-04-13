@@ -26,7 +26,7 @@ html, body {
 }
 
 .dropdown-menu {
-  width: 250px; !important
+	width: 250px !important;
 }
 
 /* Header */
@@ -80,6 +80,13 @@ html, body {
 	text-align:left;
 }
 
+.subtable {
+	
+	font-family: 'Coustard', serif; 
+	font-size:30px; 
+	text-align:center;
+}
+
 .tagline {
 	
 	font-family: 'Coustard', serif;
@@ -111,11 +118,20 @@ ul {
 }
 
 /* Footer */
-.footer {
-	color:grey;
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin-bottom: 60px;
+}
+#footer {
+	color:grey !important;
+	display:inline-block;
+	bottom: 0;
+	height: 60px;
+	line-height: 60px;
+	justify-content:center !important;
 }
 
-#footer {
-	color: grey;
-	padding-top: 25px;
-}
