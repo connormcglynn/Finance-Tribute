@@ -113,6 +113,9 @@ html, body {
 ul {
 	list-style-type: none; /* to remove bullets from nav UL */
 }
+
+/* jQuery/Bootstrap Modal */
+
 .modalfont {
 	color: black;
 }

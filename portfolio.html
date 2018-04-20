@@ -181,9 +181,19 @@
 <!-- Triggers the modal with a button -->
 <center><button type="button" class="btn btn-info btn-lg btn-outline-light" style="width: 220px; text-align:center;" data-toggle="modal" data-target="#exampleModal">Contact Us Now</button>
 </center>
-<!-- Modal -->
+
+<!-- jQuery Modal 
+<div class="overlay"></div>
+<div class="modal">
+	<h2>Modal</h2>
+	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+	<button class="close">Close</button></div>
+
+<button class="open">Open</button> -->
+
+<!-- Bootstrap Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title modalfont" id="exampleModalLabel">Broker contact</h5>
@@ -222,6 +232,22 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script>
+    <!-- jQuery for Modal -->
+    <script>
+    $(".open").on("click", function(){
+      $(".overlay, .modal").addClass("active");
+    });
+
+    $(".close, .overlay").on("click", function(){
+      $(".overlay, .modal").removeClass("active");
+    });
+
+    $(document).keyup(function(e) {
+      if (e.keyCode === 27) {
+        $(".overlay, .modal").removeClass("active");
+      }
+    });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
